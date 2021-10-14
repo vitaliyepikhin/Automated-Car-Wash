@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-14T07:13:50.696Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="B6EgniNbgOoRO1Bojis7" version="15.5.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-10-14T07:17:25.430Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="aGm8oOMcnYj4LRpx0_hk" version="15.5.2" type="github" pages="2">
   <diagram id="xA-8zZ3afOTTgIumucGb" name="Page-1">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -102,7 +102,7 @@
         <mxCell id="2DMJs4gztu_JsLkwX661-3" value="Выбирает услуги" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="M8Oyu_-7Qr-YHTznpY6W-1">
           <mxGeometry x="400" y="140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2DMJs4gztu_JsLkwX661-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="M8Oyu_-7Qr-YHTznpY6W-1" source="2DMJs4gztu_JsLkwX661-5" target="2DMJs4gztu_JsLkwX661-15">
+        <mxCell id="2DMJs4gztu_JsLkwX661-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="M8Oyu_-7Qr-YHTznpY6W-1" source="2DMJs4gztu_JsLkwX661-5" target="2DMJs4gztu_JsLkwX661-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2DMJs4gztu_JsLkwX661-5" value="Оплачивает заказ" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="M8Oyu_-7Qr-YHTznpY6W-1">
@@ -120,6 +120,9 @@
         <mxCell id="2DMJs4gztu_JsLkwX661-9" value="Отслеживает мойку&amp;nbsp;" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="M8Oyu_-7Qr-YHTznpY6W-1">
           <mxGeometry x="870" y="140" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="2DMJs4gztu_JsLkwX661-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="M8Oyu_-7Qr-YHTznpY6W-1" source="2DMJs4gztu_JsLkwX661-11" target="2DMJs4gztu_JsLkwX661-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="2DMJs4gztu_JsLkwX661-11" value="Оценивает качество" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="M8Oyu_-7Qr-YHTznpY6W-1">
           <mxGeometry x="1070" y="140" width="120" height="60" as="geometry" />
         </mxCell>
@@ -128,6 +131,9 @@
         </mxCell>
         <mxCell id="2DMJs4gztu_JsLkwX661-17" value="Оператор" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="M8Oyu_-7Qr-YHTznpY6W-1">
           <mxGeometry x="645" y="340" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2DMJs4gztu_JsLkwX661-23" value="Оценки" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;" vertex="1" parent="M8Oyu_-7Qr-YHTznpY6W-1">
+          <mxGeometry x="1080" y="240" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
