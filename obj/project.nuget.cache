@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "Pl2NJXStKUqOlTuANjHjdZcJUEcgKlWGe24o8U/oAxbu5ogNvX7bHeuESmL/c0TqW7TCBt5Iu/ZWBkyN3SooJQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\22vin\\Documents\\GitHub\\Automated-Car-Wash\\Automated-Car-Wash.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\22vin\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\22vin\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\22vin\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\22vin\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\22vin\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\22vin\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
