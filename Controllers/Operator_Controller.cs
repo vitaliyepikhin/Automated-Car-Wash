@@ -24,7 +24,7 @@ namespace Automated_Car_Wash.Controllers
             return str;// "Метод приёма заказа"
         }
 
-        [HttpGet("ZapuskMoiki")]
+        [HttpPost("ZapuskMoiki")]
         public string ZapuskMoiki(string str)
         {
             return str;// "Метод запуска робот-мойки"
@@ -34,6 +34,30 @@ namespace Automated_Car_Wash.Controllers
         public string PriemOplata(string str)
         {
             return str;// "Метод приема оплаты"
+        }
+
+        [HttpPut("Create")]
+        public string Create(string str)
+        {
+            return str;
+        }
+
+        [HttpGet("Read")]
+        public string Read(string str)
+        {
+            return str;
+        }
+
+        [HttpPatch("Update")]
+        public string Update(string str)
+        {
+            return str;
+        }
+
+        [HttpDelete("Delete")]
+        public string Delete(string str)
+        {
+            return str;
         }
 
     }

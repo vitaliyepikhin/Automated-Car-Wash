@@ -24,16 +24,40 @@ namespace Automated_Car_Wash.Controllers
             return str;// "Метод заказа услуг"
         }
 
-        [HttpGet("OcenkaKachestva")]
+        [HttpPost("OcenkaKachestva")]
         public string OcenkaKachestva(string str)
         {
             return str;// "Метод оценки качества"
         }
 
-        [HttpGet("Oplata")]
+        [HttpPost("Oplata")]
         public string Oplata(string str)
         {
             return str;// "Метод оплаты мойки"
+        }
+
+        [HttpPut("Create")]
+        public string Create(string str)
+        {
+            return str;
+        }
+
+        [HttpGet("Read")]
+        public string Read(string str)
+        {
+            return str;
+        }
+
+        [HttpPatch("Update")]
+        public string Update(string str)
+        {
+            return str;
+        }
+
+        [HttpDelete("Delete")]
+        public string Delete(string str)
+        {
+            return str;
         }
 
     }
