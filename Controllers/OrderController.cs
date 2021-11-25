@@ -8,8 +8,8 @@ using Microsoft.Extensions.Logging;
 namespace Automated_Car_Wash.Controllers
 {
     [ApiController]
-    [Route("/Payment")]
-    public class Payment_Controller : ControllerBase
+    [Route("/Order")]
+    public class OrderController : ControllerBase
     {
 
         [HttpPut("Create")]

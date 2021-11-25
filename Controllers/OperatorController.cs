@@ -8,8 +8,8 @@ using Microsoft.Extensions.Logging;
 namespace Automated_Car_Wash.Controllers
 {
     [ApiController]
-    [Route("/Client")]
-    public class Client_Controller : ControllerBase
+    [Route("/Operator")]
+    public class OperatorController : ControllerBase
     {
 
         [HttpGet("DistSlezhka")]
@@ -18,22 +18,22 @@ namespace Automated_Car_Wash.Controllers
             return str; //"Метод слежки за процессом мойки"
         }
 
-        [HttpGet("ZakazUslug")]
-        public string ZakazUslug(string str)
+        [HttpGet("PriemZakaza")]
+        public string PriemZakaza(string str)
         {
-            return str;// "Метод заказа услуг"
+            return str;// "Метод приёма заказа"
         }
 
-        [HttpPost("OcenkaKachestva")]
-        public string OcenkaKachestva(string str)
+        [HttpPost("ZapuskMoiki")]
+        public string ZapuskMoiki(string str)
         {
-            return str;// "Метод оценки качества"
+            return str;// "Метод запуска робот-мойки"
         }
 
-        [HttpPost("Oplata")]
-        public string Oplata(string str)
+        [HttpGet("PriemOplata")]
+        public string PriemOplata(string str)
         {
-            return str;// "Метод оплаты мойки"
+            return str;// "Метод приема оплаты"
         }
 
         [HttpPut("Create")]
