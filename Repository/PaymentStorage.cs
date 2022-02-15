@@ -6,12 +6,12 @@ namespace Automated_Car_Wash.Repository
 {
     public class PaymentStorage
     {
-        private readonly Dictionary<int, Payment> _payments = new();
+        private readonly Dictionary<int, Payment> _Payments = new();
 
         public Payment Create(Payment payment)
         {
 
-            _payments.Add(payment.PaymentId, payment);
+            _Payments.Add(payment.PaymentId, payment);
             return payment;
 
         }

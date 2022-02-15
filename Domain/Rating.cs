@@ -15,7 +15,7 @@ namespace Automated_Car_Wash.Domain
 
         public DateTime RatingDate { get; set; }
 
-        public string Rating { get; set; }
+        public string RatingText { get; set; }
 
     }
 }

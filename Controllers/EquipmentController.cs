@@ -18,25 +18,25 @@ namespace Automated_Car_Wash.Controllers
         public Equipment Create(Equipment equipment)
         {
             Storage.EquipmentStorage.Create(equipment);
-            return Storage.EquipmentStorage.Read(equipment.Id);
+            return Storage.EquipmentStorage.Read(equipment.EquipmentId);
         }
 
         [HttpGet("Read")]
-        public Equipment Read(int Id)
+        public Equipment Read(int EquipmentId)
         {
-            return Storage.EquipmentStorage.Read(Id);
+            return Storage.EquipmentStorage.Read(EquipmentId);
         }
 
         [HttpPatch("Update")]
-        public Equipment Update(int Id, Equipment newEquipment)
+        public Equipment Update(int EquipmentId, Equipment newEquipment)
         {
-            return Storage.EquipmentStorage.Update(Id, newEquipment);
+            return Storage.EquipmentStorage.Update(EquipmentId, newEquipment);
         }
 
         [HttpDelete("Delete")]
-        public bool Delete(int Id)
+        public bool Delete(int EquipmentId)
         {
-            return Storage.EquipmentStorage.Delete(Id);
+            return Storage.EquipmentStorage.Delete(EquipmentId);
         }
     }
 }

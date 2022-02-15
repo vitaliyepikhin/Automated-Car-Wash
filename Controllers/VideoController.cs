@@ -20,25 +20,25 @@ namespace Automated_Car_Wash.Controllers
         public Video Create(Video video)
         {
             Storage.VideoStorage.Create(video);
-            return Storage.VideoStorage.Read(video.Id);
+            return Storage.VideoStorage.Read(video.VideoId);
         }
 
         [HttpGet("Read")]
-        public Video Read(int Id)
+        public Video Read(int VideoId)
         {
-            return Storage.VideoStorage.Read(Id);
+            return Storage.VideoStorage.Read(VideoId);
         }
 
         [HttpPatch("Update")]
-        public Video Update(int Id, Video newVideo)
+        public Video Update(int VideoId, Video newVideo)
         {
-            return Storage.VideoStorage.Update(Id, newVideo);
+            return Storage.VideoStorage.Update(VideoId, newVideo);
         }
 
         [HttpDelete("Delete")]
-        public bool Delete(int Id)
+        public bool Delete(int VideoId)
         {
-            return Storage.VideoStorage.Delete(Id);
+            return Storage.VideoStorage.Delete(VideoId);
         }
     }
 }

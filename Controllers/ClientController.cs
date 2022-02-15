@@ -42,25 +42,25 @@ namespace Automated_Car_Wash.Controllers
         public Client Create(Client client)
         {
             Storage.ClientStorage.Create(client);
-            return Storage.ClientStorage.Read(client.Id);
+            return Storage.ClientStorage.Read(client.ClientId);
         }
 
         [HttpGet("Read")]
-        public Client Read(int Id)
+        public Client Read(int ClientId)
         {
-            return Storage.ClientStorage.Read(Id);
+            return Storage.ClientStorage.Read(ClientId);
         }
 
         [HttpPatch("Update")]
-        public Client Update(int Id, Client newClient)
+        public Client Update(int ClientId, Client newClient)
         {
-            return Storage.ClientStorage.Update(Id, newClient);
+            return Storage.ClientStorage.Update(ClientId, newClient);
         }
 
         [HttpDelete("Delete")]
-        public bool Delete(int Id)
+        public bool Delete(int ClientId)
         {
-            return Storage.ClientStorage.Delete(Id);
+            return Storage.ClientStorage.Delete(ClientId);
         }
     }
 }

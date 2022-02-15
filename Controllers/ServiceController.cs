@@ -18,25 +18,25 @@ namespace Automated_Car_Wash.Controllers
         public Service Create(Service service)
         {
             Storage.ServiceStorage.Create(service);
-            return Storage.ServiceStorage.Read(service.Id);
+            return Storage.ServiceStorage.Read(service.ServiceId);
         }
 
         [HttpGet("Read")]
-        public Service Read(int Id)
+        public Service Read(int ServiceId)
         {
-            return Storage.ServiceStorage.Read(Id);
+            return Storage.ServiceStorage.Read(ServiceId);
         }
 
         [HttpPatch("Update")]
-        public Service Update(int Id, Service newService)
+        public Service Update(int ServiceId, Service newService)
         {
-            return Storage.ServiceStorage.Update(Id, newService);
+            return Storage.ServiceStorage.Update(ServiceId, newService);
         }
 
         [HttpDelete("Delete")]
-        public bool Delete(int Id)
+        public bool Delete(int ServiceId)
         {
-            return Storage.ServiceStorage.Delete(Id);
+            return Storage.ServiceStorage.Delete(ServiceId);
         }
     }
 }

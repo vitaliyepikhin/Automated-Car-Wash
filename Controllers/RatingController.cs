@@ -18,25 +18,25 @@ namespace Automated_Car_Wash.Controllers
         public Rating Create(Rating rating)
         {
             Storage.RatingStorage.Create(rating);
-            return Storage.RatingStorage.Read(rating.Id);
+            return Storage.RatingStorage.Read(rating.RatingId);
         }
 
         [HttpGet("Read")]
-        public Rating Read(int Id)
+        public Rating Read(int RatingId)
         {
-            return Storage.RatingStorage.Read(Id);
+            return Storage.RatingStorage.Read(RatingId);
         }
 
         [HttpPatch("Update")]
-        public Rating Update(int Id, Rating newRating)
+        public Rating Update(int RatingId, Rating newRating)
         {
-            return Storage.RatingStorage.Update(Id, newRating);
+            return Storage.RatingStorage.Update(RatingId, newRating);
         }
 
         [HttpDelete("Delete")]
-        public bool Delete(int Id)
+        public bool Delete(int RatingId)
         {
-            return Storage.RatingStorage.Delete(Id);
+            return Storage.RatingStorage.Delete(RatingId);
         }
     }
 }
