@@ -10,35 +10,34 @@ using Automated_Car_Wash.Repository;
 namespace Automated_Car_Wash.Controllers
 {
     [ApiController]
-    [Route("/Video")]
-    public class VideoController : ControllerBase
+    [Route("/Box")]
+    public class BoxController : ControllerBase
     {
 
-   
-
         [HttpPut("Create")]
-        public Video Create(Video video)
+        public Box Create(Box box)
         {
-            Storage.VideoStorage.Create(video);
-            return Storage.VideoStorage.Read(video.Id);
+            Storage.BoxStorage.Create(box);
+            return Storage.BoxStorage.Read(box.BoxId);
         }
 
         [HttpGet("Read")]
-        public Video Read(int Id)
+        public Box Read(int BoxId)
         {
-            return Storage.VideoStorage.Read(Id);
+            return Storage.BoxStorage.Read(BoxId);
         }
 
         [HttpPatch("Update")]
-        public Video Update(int Id, Video newVideo)
+        public Box Update(int BoxId, Box newBox)
         {
-            return Storage.VideoStorage.Update(Id, newVideo);
+            return Storage.BoxStorage.Update(BoxId, newBox);
         }
 
         [HttpDelete("Delete")]
-        public bool Delete(int Id)
+        public bool Delete(int BoxId)
         {
-            return Storage.VideoStorage.Delete(Id);
+            return Storage.BoxStorage.Delete(BoxId);
         }
     }
 }
+

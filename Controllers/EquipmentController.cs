@@ -10,33 +10,33 @@ using Automated_Car_Wash.Repository;
 namespace Automated_Car_Wash.Controllers
 {
     [ApiController]
-    [Route("/Service")]
-    public class ServiceController : ControllerBase
+    [Route("/Equipment")]
+    public class EquipmentController : ControllerBase
     {
 
         [HttpPut("Create")]
-        public Service Create(Service service)
+        public Equipment Create(Equipment equipment)
         {
-            Storage.ServiceStorage.Create(service);
-            return Storage.ServiceStorage.Read(service.Id);
+            Storage.EquipmentStorage.Create(equipment);
+            return Storage.EquipmentStorage.Read(equipment.Id);
         }
 
         [HttpGet("Read")]
-        public Service Read(int Id)
+        public Equipment Read(int Id)
         {
-            return Storage.ServiceStorage.Read(Id);
+            return Storage.EquipmentStorage.Read(Id);
         }
 
         [HttpPatch("Update")]
-        public Service Update(int Id, Service newService)
+        public Equipment Update(int Id, Equipment newEquipment)
         {
-            return Storage.ServiceStorage.Update(Id, newService);
+            return Storage.EquipmentStorage.Update(Id, newEquipment);
         }
 
         [HttpDelete("Delete")]
         public bool Delete(int Id)
         {
-            return Storage.ServiceStorage.Delete(Id);
+            return Storage.EquipmentStorage.Delete(Id);
         }
     }
 }

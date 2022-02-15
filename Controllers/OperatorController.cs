@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Automated_Car_Wash.Domain;
+using Automated_Car_Wash.Repository;
 
 namespace Automated_Car_Wash.Controllers
 {
@@ -37,28 +39,29 @@ namespace Automated_Car_Wash.Controllers
         }
 
         [HttpPut("Create")]
-        public string Create(string str)
+        public Operator Create(Operator operator)
         {
-            return str;
+            Storage.OperatorStorage.Create(operator);
+            return Storage.OperatorStorage.Read(operator.Id);
         }
 
         [HttpGet("Read")]
-        public string Read(string str)
+        public Operator Read(int Id)
         {
-            return str;
+            return Storage.OperatorStorage.Read(Id);
         }
 
         [HttpPatch("Update")]
-        public string Update(string str)
+        public Operator Update(int Id, Operator newOperator)
         {
-            return str;
+            return Storage.OperatorStorage.Update(Id, newOperator);
         }
 
         [HttpDelete("Delete")]
-        public string Delete(string str)
+        public bool Delete(int Id)
         {
-            return str;
+            return Storage.OperatorStorage.Delete(Id);
         }
-
     }
 }
+
