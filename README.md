@@ -1,4 +1,4 @@
-# Automated-Car-Wash
+# Automated Car Wash
 ## `Содержание`
 [Введение](#введение)
 
