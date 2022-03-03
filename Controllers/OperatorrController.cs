@@ -10,8 +10,8 @@ using Automated_Car_Wash.Repository;
 namespace Automated_Car_Wash.Controllers
 {
     [ApiController]
-    [Route("/Operator")]
-    public class OperatorController : ControllerBase
+    [Route("/Operatorr")]
+    public class OperatorrController : ControllerBase
     {
 
         [HttpGet("DistSlezhka")]
@@ -39,28 +39,28 @@ namespace Automated_Car_Wash.Controllers
         }
 
         [HttpPut("Create")]
-        public Operator Create(Operator operator)
+        public Operatorr Create(Operatorr operatorr)
         {
-            Storage.OperatorStorage.Create(operator);
-            return Storage.OperatorStorage.Read(operator.Id);
+            Storage.OperatorrStorage.Create(operatorr);
+            return Storage.OperatorrStorage.Read(operatorr.OperatorrId);
         }
 
         [HttpGet("Read")]
-        public Operator Read(int Id)
+        public Operatorr Read(int OperatorrId)
         {
-            return Storage.OperatorStorage.Read(Id);
+            return Storage.OperatorrStorage.Read(OperatorrId);
         }
 
         [HttpPatch("Update")]
-        public Operator Update(int Id, Operator newOperator)
+        public Operatorr Update(int OperatorrId, Operatorr newOperatorr)
         {
-            return Storage.OperatorStorage.Update(Id, newOperator);
+            return Storage.OperatorrStorage.Update(OperatorrId, newOperatorr);
         }
 
         [HttpDelete("Delete")]
-        public bool Delete(int Id)
+        public bool Delete(int OperatorrId)
         {
-            return Storage.OperatorStorage.Delete(Id);
+            return Storage.OperatorrStorage.Delete(OperatorrId);
         }
     }
 }

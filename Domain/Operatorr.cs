@@ -7,9 +7,9 @@ using Microsoft.Extensions.Logging;
 
 namespace Automated_Car_Wash.Domain
 {
-    public class Operator
+    public class Operatorr
     {
-        public int OperatorId { get; set; }
+        public int OperatorrId { get; set; }
 
         public string OperatorName { get; set; }
 
