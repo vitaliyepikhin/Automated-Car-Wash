@@ -14,30 +14,6 @@ namespace Automated_Car_Wash.Controllers
     public class OperatorrController : ControllerBase
     {
 
-        [HttpGet("DistSlezhka")]
-        public string DistSlezhka(string str)
-        {
-            return str; //"Метод слежки за процессом мойки"
-        }
-
-        [HttpGet("PriemZakaza")]
-        public string PriemZakaza(string str)
-        {
-            return str;// "Метод приёма заказа"
-        }
-
-        [HttpPost("ZapuskMoiki")]
-        public string ZapuskMoiki(string str)
-        {
-            return str;// "Метод запуска робот-мойки"
-        }
-
-        [HttpGet("PriemOplata")]
-        public string PriemOplata(string str)
-        {
-            return str;// "Метод приема оплаты"
-        }
-
         [HttpPut("Create")]
         public Operatorr Create(Operatorr operatorr)
         {

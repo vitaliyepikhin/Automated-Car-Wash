@@ -14,8 +14,6 @@ namespace Automated_Car_Wash.Controllers
     public class VideoController : ControllerBase
     {
 
-   
-
         [HttpPut("Create")]
         public Video Create(Video video)
         {

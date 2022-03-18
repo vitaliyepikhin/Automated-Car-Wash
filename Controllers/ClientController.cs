@@ -14,30 +14,6 @@ namespace Automated_Car_Wash.Controllers
     public class ClientController : ControllerBase
     {
 
-        [HttpGet("DistSlezhka")]
-        public string DistSlezhka(string str)
-        {
-            return str; //"Метод слежки за процессом мойки"
-        }
-
-        [HttpGet("ZakazUslug")]
-        public string ZakazUslug(string str)
-        {
-            return str;// "Метод заказа услуг"
-        }
-
-        [HttpPost("OcenkaKachestva")]
-        public string OcenkaKachestva(string str)
-        {
-            return str;// "Метод оценки качества"
-        }
-
-        [HttpPost("Oplata")]
-        public string Oplata(string str)
-        {
-            return str;// "Метод оплаты мойки"
-        }
-
         [HttpPut("Create")]
         public Client Create(Client client)
         {

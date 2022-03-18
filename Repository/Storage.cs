@@ -2,7 +2,6 @@ namespace Automated_Car_Wash.Repository
 {
     public class Storage
     {
-        //public static readonly ShoppingBasketStorage ShoppingBasketStorage = new();
         public static readonly VideoStorage VideoStorage = new();
         public static readonly OrderStorage OrderStorage = new();
         public static readonly RatingStorage RatingStorage = new();
