@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-29T05:32:56.043Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="frOyIuJBXisLxv6Lo18t" version="17.4.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-04-29T05:33:50.069Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="amT04nAWHm57EbfDVWY1" version="17.4.6" type="github" pages="5">
   <diagram id="xA-8zZ3afOTTgIumucGb" name="USE-CASE">
     <mxGraphModel dx="1278" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1116,34 +1116,34 @@
         <mxCell id="gQlKQY6UFnv6-cxffwp8-1" value="Client" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="140" y="40" width="170" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="gQlKQY6UFnv6-cxffwp8-46" value="«interface»&lt;br&gt;&lt;span style=&quot;font-weight: 700&quot;&gt;IClientRatingDetails&lt;/span&gt;" style="html=1;" parent="1" vertex="1">
+        <mxCell id="gQlKQY6UFnv6-cxffwp8-46" value="«interface»&lt;br&gt;&lt;span style=&quot;font-weight: 700&quot;&gt;IClientRating&lt;/span&gt;" style="html=1;" parent="1" vertex="1">
           <mxGeometry x="157.5" y="70" width="135" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="fY97nmDZARDTE6UoHSDp-1" value="«interface»&lt;br&gt;&lt;span style=&quot;font-weight: 700&quot;&gt;IClientPaymentDetails&lt;/span&gt;" style="html=1;" parent="1" vertex="1">
+        <mxCell id="fY97nmDZARDTE6UoHSDp-1" value="«interface»&lt;br&gt;&lt;span style=&quot;font-weight: 700&quot;&gt;IClientPayment&lt;/span&gt;" style="html=1;" parent="1" vertex="1">
           <mxGeometry x="157.5" y="130" width="135" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="fY97nmDZARDTE6UoHSDp-28" value="«interface»&lt;br&gt;&lt;span style=&quot;font-weight: 700&quot;&gt;IEquipmentBoxDetails&lt;/span&gt;" style="html=1;" parent="1" vertex="1">
+        <mxCell id="fY97nmDZARDTE6UoHSDp-28" value="«interface»&lt;br&gt;&lt;span style=&quot;font-weight: 700&quot;&gt;IEquipmentBox&lt;/span&gt;" style="html=1;" parent="1" vertex="1">
           <mxGeometry x="75" y="380" width="135" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gQlKQY6UFnv6-cxffwp8-5" value="Rating" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="460" y="10" width="170" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="fY97nmDZARDTE6UoHSDp-2" value="«interface»&lt;br&gt;&lt;span style=&quot;font-weight: 700&quot;&gt;IRatingOrderDetails&lt;/span&gt;" style="html=1;" parent="1" vertex="1">
+        <mxCell id="fY97nmDZARDTE6UoHSDp-2" value="«interface»&lt;br&gt;&lt;span style=&quot;font-weight: 700&quot;&gt;IRatingOrder&lt;/span&gt;" style="html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="40" width="135" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gQlKQY6UFnv6-cxffwp8-4" value="Payment" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="460" y="150" width="170" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="fY97nmDZARDTE6UoHSDp-16" value="«interface»&lt;br&gt;&lt;span style=&quot;font-weight: 700&quot;&gt;IServiceOrderDetails&lt;/span&gt;" style="html=1;" parent="1" vertex="1">
+        <mxCell id="fY97nmDZARDTE6UoHSDp-16" value="«interface»&lt;br&gt;&lt;span style=&quot;font-weight: 700&quot;&gt;IServiceOrder&lt;/span&gt;" style="html=1;" parent="1" vertex="1">
           <mxGeometry x="1130" y="200" width="135" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="fY97nmDZARDTE6UoHSDp-14" value="«interface»&lt;br&gt;&lt;span style=&quot;font-weight: 700&quot;&gt;IOperatorOrderDetails&lt;/span&gt;" style="html=1;" parent="1" vertex="1">
+        <mxCell id="fY97nmDZARDTE6UoHSDp-14" value="«interface»&lt;br&gt;&lt;span style=&quot;font-weight: 700&quot;&gt;IOperatorOrder&lt;/span&gt;" style="html=1;" parent="1" vertex="1">
           <mxGeometry x="567.5" y="625" width="135" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="fY97nmDZARDTE6UoHSDp-29" value="«interface»&lt;br&gt;&lt;span style=&quot;font-weight: 700&quot;&gt;IVideoBoxDetails&lt;/span&gt;" style="html=1;" parent="1" vertex="1">
+        <mxCell id="fY97nmDZARDTE6UoHSDp-29" value="«interface»&lt;br&gt;&lt;span style=&quot;font-weight: 700&quot;&gt;IVideoBox&lt;/span&gt;" style="html=1;" parent="1" vertex="1">
           <mxGeometry x="75" y="580" width="135" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="fY97nmDZARDTE6UoHSDp-15" value="«interface»&lt;br&gt;&lt;span style=&quot;font-weight: 700&quot;&gt;IBoxOrderDetails&lt;/span&gt;" style="html=1;" parent="1" vertex="1">
+        <mxCell id="fY97nmDZARDTE6UoHSDp-15" value="«interface»&lt;br&gt;&lt;span style=&quot;font-weight: 700&quot;&gt;IBoxOrder&lt;/span&gt;" style="html=1;" parent="1" vertex="1">
           <mxGeometry x="454" y="410" width="135" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fY97nmDZARDTE6UoHSDp-46" value="" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;" parent="1" source="gQlKQY6UFnv6-cxffwp8-5" target="gQlKQY6UFnv6-cxffwp8-46" edge="1">
@@ -1164,7 +1164,7 @@
             <mxPoint x="1250" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fY97nmDZARDTE6UoHSDp-3" value="«interface»&lt;br&gt;&lt;span style=&quot;font-weight: 700&quot;&gt;IPaymentOrderDetails&lt;/span&gt;" style="html=1;" parent="1" vertex="1">
+        <mxCell id="fY97nmDZARDTE6UoHSDp-3" value="«interface»&lt;br&gt;&lt;span style=&quot;font-weight: 700&quot;&gt;IPaymentOrder&lt;/span&gt;" style="html=1;" parent="1" vertex="1">
           <mxGeometry x="477" y="190" width="135" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fY97nmDZARDTE6UoHSDp-51" value="" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;exitX=0;exitY=0;exitDx=10;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="gQlKQY6UFnv6-cxffwp8-6" target="fY97nmDZARDTE6UoHSDp-3" edge="1">
